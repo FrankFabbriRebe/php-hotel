@@ -51,6 +51,18 @@
 
     ];
 
+    foreach ($hotels as $hotel) {
+
+        echo
+            "Name: " . $hotel['name'] . "<br>"
+            . "Description: " . $hotel['description'] . "<br>"
+            . "Parking: " . $hotel['parking'] . "<br>"
+            . "Vote: " . $hotel['vote'] . "<br>"
+            . "Distance to center: " . $hotel['distance_to_center'] . "<br>"
+            . "<br>";
+
+    }
+
     ?>
 
 </body>
